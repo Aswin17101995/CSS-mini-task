@@ -1,0 +1,94 @@
+.img1
+{
+    border-radius: 25px;
+    width: 400px;
+  height: 300px;
+}
+.img2{
+    border:20px solid red;
+    border-style: dotted;
+    width: 400px;
+    height: 300px;
+}
+.img3{
+    filter: grayscale(100%);
+    width: 400px;
+    height: 300px;
+}
+
+@media only screen and (max-width:900px)
+{
+    body{
+        font-size:90px;
+        color:red;
+    }
+}
+.grab{
+    cursor:-webkit-grabbing;
+    cursor:grabbing;
+}
+.para{
+    width: 400px;
+    border:15px solid green;
+    padding:50px;
+    margin:20px;
+    transform: translate(200px,100px)
+}
+.para:hover {
+    background-color:black;
+    font-weight:bold;
+    font-size:60px;
+    color:white;    
+    
+
+}
+.tooltiptext{
+    visibility:hidden;
+}
+.bigd{
+    font-size: 200px;
+    float: left;
+    color: white;
+    
+}
+.remaining{
+    padding-top:40px;
+    font-size:40px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.lastline{
+    font-size:40px;
+    transform: translate(-145px,0px);
+    color: white;
+}
+
+.rectangle{
+    background-color: lightskyblue;
+    width: 250px;
+    height: 150px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+body{
+    background-image: url(https://thecomputerwarriors.com/wp-content/uploads/2020/10/img_5a78dece9a202.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wallpaper{
+    opacity: 0.3;
+    width: 300px;
+    height: 300px;
+}
+.wallpaper:hover{
+    opacity:1;
+    width: 300px;
+    height: 300px;
+}
+.scroll{
+    width:200px;
+    height: 200px;
+    overflow: auto;
+    color: white;
+}
